@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #16a085, #f39c12);
+}
+
+.link-button:hover {
+  transform: translateY(-5px);
+}
+
+img.profile {
+  transition: transform 0.3s ease-in-out;
+}
+
+img.profile:hover {
+  transform: scale(1.1);
+}
